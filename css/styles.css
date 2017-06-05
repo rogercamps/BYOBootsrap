@@ -1,1 +1,47 @@
 
+/*typography*/
+.h1size {
+  font-size: 32px;
+}
+
+.h2size {
+  font-size: 28px;
+}
+
+.h3size {
+  font-size: 24px;
+}
+
+.h4size {
+  font-size: 20px;
+}
+
+.h5size {
+  font-size: 16px;
+}
+
+.h6size {
+  font-size: 12px;
+}
+
+.example-block {
+  background-color: #f8f8f8;
+  display: flex;
+  border: 2px solid #e0e0e0;
+  flex-direction: column;
+  line-height: 2.8px;
+  border-radius: 4px;
+  margin-bottom: 5px;
+}
+
+.example-title {
+  color: #000000;
+  background-color: #d0d0d0;
+  border-color: #d0d0d0;
+  margin-bottom: 10px;
+  text-indent: 12px;
+}
+
+.example-body {
+  margin-left: 10px;
+}
