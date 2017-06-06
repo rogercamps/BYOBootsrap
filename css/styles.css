@@ -44,4 +44,14 @@
 
 .example-body {
   margin-left: 10px;
+  margin-bottom: 10px;
+}
+
+/*Addresses*/
+.address {
+
+}
+
+.address:first-child {
+  font-weight: bold;
 }
