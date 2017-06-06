@@ -1,3 +1,21 @@
+/*.container {
+  display: absolute;
+  height: 100%;
+  font-family: verdana;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  width: 100%;
+}
+
+.sidebar {
+  background-color: #F4F4F4;
+  -webkit-flex: 1;
+  flex: 1;
+  position: fixed;
+  height: 100%;
+  width: 275px;
+  overflow-y: auto;
+}*/
 
 /*typography*/
 .h1size {
@@ -44,4 +62,9 @@
 
 .example-body {
   margin-left: 10px;
+}
+
+.lead {
+  font-size: 22px;
+  font-family: verdana;
 }
