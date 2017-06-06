@@ -4,7 +4,7 @@ Tired of bootstrap templates that are so overused it makes the entire world wide
 Passionate about front end development?
 Ever dreamt of designing web elements like carousels, navbars, jumbotrons, and grids based on your design aesthetic?
 Have you already built your own web elements in your previous LG projects?
-Then this is the project for you! 
+Then this is the project for you!
 
 You will build your own web elements for the front end and publish that code so it can be later used by anyone to build their own site. Here is an example of a Bootstrap type site that was built by 4 college kids!
 
@@ -24,40 +24,40 @@ Read and reference good resources on the web to build your conceptual understand
 
 Specifications
 
--[] Artifact is a GitHub repository (if you’re -[ looking for a name, why not “shoelace” ;) All CSS files are in a css/ directory.
--[] Main page is called demo.html and includes an example of each component.
--[] No external CSS libraries/modules are used.-[] Everything is written from scratch.
--[] Variables, functions, files, etc. have appropriate and meaningful names.
--[] HTML, CSS, and JS files are well formatted with proper spacing and indentation.
--[] All major features are added via pull requests with a clear description and concise commit messages.
--[] Every pull request has been reviewed by at least one other person.
--[] The artifact produced is properly licensed, preferably with the MIT license.
+-[] Artifact is a GitHub repository (if you’re -[ looking for a name, why not “shoelace” ;) All CSS files are in a css/ directory.  
+-[] Main page is called demo.html and includes an example of each component.  
+-[] No external CSS libraries/modules are used.-[] Everything is written from scratch.  
+-[] Variables, functions, files, etc. have appropriate and meaningful names.  
+-[] HTML, CSS, and JS files are well formatted with proper spacing and indentation.  
+-[] All major features are added via pull requests with a clear description and concise commit messages.  
+-[] Every pull request has been reviewed by at least one other person.  
+-[] The artifact produced is properly licensed, preferably with the MIT license.  
 Stage 1: Reverse Engineer Bootstrap Components
 
 Typography
 
- -[] Styles replicate Bootstrap’s Headings
- -[] Styles replicate Bootstrap’s Body copy
- -[] Styles replicate Bootstrap’s Addresses
- -[] Styles replicate Bootstrap’s Blockquotes
+ -[] Styles replicate Bootstrap’s Headings  
+ -[] Styles replicate Bootstrap’s Body copy  
+ -[] Styles replicate Bootstrap’s Addresses  
+ -[] Styles replicate Bootstrap’s Blockquotes  
 Components
 
- -[] Each component is featured on the demo HTML page demo.html under its own header along with the code used to generate it (for a simple example of what this could look like, see https://purecss.io/buttons/)
- -[] Styles replicate Bootstrap’s buttons
+ -[] Each component is featured on the demo HTML page demo.html under its own header along with the code used to generate it (for a simple example of what this could look like, see https://purecss.io/buttons/)  
+ -[] Styles replicate Bootstrap’s buttons  
 Components include replicas of Bootstrap’s:
 
--[] Button Groups: Toolbar
--[] Breadcrumbs
--[] Pagination
--[] Labels
--[] Badges
--[] Jumbotron
--[] Page Header
--[] Thumbnails
--[] Alerts
--[] List Group
--[] Panels
--[] Wells
+-[] Button Groups: Toolbar  
+-[] Breadcrumbs  
+-[] Pagination  
+-[] Labels  
+-[] Badges  
+-[] Jumbotron  
+-[] Page Header  
+-[] Thumbnails  
+-[] Alerts  
+-[] List Group  
+-[] Panels  
+-[] Wells  
 
 Stage 2: Modify the Styles
 
@@ -65,6 +65,7 @@ Now it’s time to make it look good. Make changes to the CSS (not the HTML) to 
 
 Demo page demo.html shows components/elements with customized styles, including (but not limited to):
 
--[] A different typeface (take a look at Google Fonts for inspiration)
--[] A unique and different color palette (take a look at Adobe Color CC for inspiration)
+-[] A different typeface (take a look at Google Fonts for inspiration)  
+-[] A unique and different color palette (take a look at Adobe Color CC for inspiration)  
+
 Style should be cohesive, connecting the elements as a whole. For example, a similar color palette is chosen.
