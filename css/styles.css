@@ -50,6 +50,7 @@
   line-height: 2.8px;
   border-radius: 4px;
   margin-bottom: 5px;
+  margin-top: 10px;
 }
 
 .example-title {
@@ -77,4 +78,131 @@
 .lead {
   font-size: 22px;
   font-family: verdana;
+}
+
+/*breadcrumbs*/
+.breadcrumbs {
+  padding: 8px 15px;
+  list-style-type: none;
+  background-color: #f5f5f5;
+  border-radius: 4px;
+  display: flex;
+}
+
+.breadcrumbs li {
+  padding-right: 5px;
+}
+
+.breadcrumbs>li+li:before {
+  padding: 0px 5px;
+  color: #ccc;
+  content: "/\00a0";
+}
+
+.breadcrumbs>.active {
+  color: #777;
+}
+
+/*Pagination*/
+.pagination {
+  display: flex;
+  list-style-type: none;
+
+}
+
+.pagination li a {
+  background-color: #f8f8f8;
+  border: 1px solid #d8d8d8;
+  padding: 5px;
+  border-radius: 4px;
+}
+
+/*label*/
+.label {
+  display: inline;
+  color: #fff;
+  padding: .2em .6em .3em;
+  background-color: #777;
+  font-size: 75%;
+  font-weight: 700;
+  line-height: 1;
+  white-space: nowrap;
+  vertical-align: baseline;
+  border-radius: .25em;
+  margin-left: 5px;
+}
+
+.label-primary {
+  background-color: blue;
+}
+
+.label-success {
+  background-color: green;
+}
+
+.label-danger {
+  background-color: red;
+}
+
+.label-info {
+  background-color: lightblue;
+}
+
+.label-warning {
+  background-color: orange;
+}
+
+/*badge*/
+.badge {
+  background-color: gray;
+  border-radius: 10px;
+  color: white;
+  padding: 5px;
+}
+
+/*page header*/
+.page-header {
+  border-bottom: 2px solid #eee;
+}
+.page-header small {
+  font-size: 20px;
+  color: gray;
+  font-weight: normal;
+}
+
+/*thumbnails*/
+.flex-container {
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+}
+
+.image-rounded,
+.image-circle,
+.image-square {
+  display: inline-block;
+  margin: 5px;
+  padding: 10px;
+  border: solid 1px #eee;
+  background-color: #F8f8f8;
+  box-shadow: 1px 1px 6px #777;
+  border-radius: 8px;
+}
+
+.image-rounded img {
+  margin: 0px;
+  padding: 0px;
+  border-radius: 6px;
+}
+
+.image-circle img {
+  width: 250px;
+  height: 250px;
+  margin: 0px;
+  border-radius: 40px;
+}
+
+.image-square img {
+  margin: 0px;
+  padding: 0px;
 }
