@@ -80,6 +80,7 @@
   font-family: verdana;
 }
 
+
 /*breadcrumbs*/
 .breadcrumbs {
   padding: 8px 15px;
@@ -205,4 +206,8 @@
 .image-square img {
   margin: 0px;
   padding: 0px;
+
+/* Buttons */
+.btn-toolbar {
+
 }
