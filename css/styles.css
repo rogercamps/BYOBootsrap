@@ -81,5 +81,32 @@
 
 /* Buttons */
 .btn-toolbar {
+  display: inline;
+  width: 100vw;
+  height: 10vh;
+  display: flex;
+  flex-direction: row;
+}
 
+.btn-group {
+  justify-content: space-between;
+  margin-right: 5px;
+}
+
+.btn {
+  background-color: orange;
+  border: 2px solid maroon;
+  color: white;
+  padding: 10px 24px;
+  float: left;
+  border-radius: 5px;
+  box-shadow: 0px 5px 0px gray;
+}
+
+.btn:hover {
+  opacity: 0.5;
+}
+
+.btn:active {
+  box-shadow: 0px 3px 0px gray;
 }
