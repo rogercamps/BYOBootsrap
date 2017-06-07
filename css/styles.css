@@ -206,7 +206,7 @@
 .image-square img {
   margin: 0px;
   padding: 0px;
-
+}
 /* Buttons */
 .btn-toolbar {
   display: inline;
@@ -229,6 +229,7 @@
   float: left;
   border-radius: 5px;
   box-shadow: 0px 5px 0px gray;
+  outline: none;
 }
 
 .btn:hover {
