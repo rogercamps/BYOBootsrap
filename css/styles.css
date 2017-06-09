@@ -266,9 +266,9 @@ body {
 }
 
 .simple-btn-secondary{
-   color: #292b2c;
-   background-color: #fff;
-   border-color: #ccc;
+  color: #292b2c;
+  background-color: #fff;
+  border-color: #ccc;
 
 }
 .simple-btn-success {
@@ -394,41 +394,41 @@ body {
 }
 
 .panel-success {
-    border-color: #d6e9c6;
+  border-color: #d6e9c6;
 }
 
 .panel-success-heading {
-    color: #3c763d;
-    background-color: #dff0d8;
-    border-color: #d6e9c6;
+  color: #3c763d;
+  background-color: #dff0d8;
+  border-color: #d6e9c6;
 }
 .panel-info {
-      border-color: #bce8f1;
+  border-color: #bce8f1;
 }
 .panel-info-heading {
-    color: #31708f;
-    background-color: #d9edf7;
-    border-color: #bce8f1;
+  color: #31708f;
+  background-color: #d9edf7;
+  border-color: #bce8f1;
 }
 
 .panel-warning {
-    border-color: #faebcc;
+  border-color: #faebcc;
 }
 
 .panel-warning-heading {
-    color: #8a6d3b;
-    background-color: #fcf8e3;
-    border-color: #faebcc;
+  color: #8a6d3b;
+  background-color: #fcf8e3;
+  border-color: #faebcc;
 }
 
 .panel-danger {
-    border-color: #ebccd1;
+  border-color: #ebccd1;
 }
 
 .panel-danger-heading {
-    color: #a94442;
-    background-color: #f2dede;
-    border-color: #ebccd1;
+  color: #a94442;
+  background-color: #f2dede;
+  border-color: #ebccd1;
 }
 
 /* Wells */
