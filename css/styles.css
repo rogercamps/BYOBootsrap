@@ -19,7 +19,7 @@
 
 /*typography*/
 body {
-  font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
+  font-family: 'Poiret One', cursive;
   margin-left: 50px;
 }
 
@@ -117,14 +117,19 @@ body {
 .pagination {
   display: flex;
   list-style-type: none;
-
 }
 
 .pagination li a {
+  text-decoration: none;
   background-color: #f8f8f8;
   border: 1px solid #d8d8d8;
   padding: 5px;
   border-radius: 4px;
+}
+
+.pagination li a:hover {
+  background-color: green;
+  opacity: 0.5;
 }
 
 /*label*/
@@ -163,11 +168,13 @@ body {
 }
 
 /*badge*/
+
 .badge {
   background-color: gray;
   border-radius: 10px;
   color: white;
   padding: 5px;
+  margin: 3px;
 }
 
 /*page header*/
@@ -231,14 +238,17 @@ body {
 }
 
 .btn {
-  background-color: orange;
-  border: 2px solid maroon;
-  color: white;
   padding: 10px 24px;
   float: left;
   border-radius: 5px;
-  box-shadow: 0px 5px 0px gray;
   outline: none;
+}
+
+.toolbar-button {
+  background-color: orange;
+  border: 2px solid maroon;
+  color: white;
+  box-shadow: 0px 5px 0px gray;
 }
 
 .btn:hover {
@@ -249,6 +259,47 @@ body {
   box-shadow: 0px 3px 0px gray;
 }
 
+.simple-btn-primary{
+  color: #fff;
+  background-color: #0275d8;
+  border-color: #0275d8;
+}
+
+.simple-btn-secondary{
+   color: #292b2c;
+   background-color: #fff;
+   border-color: #ccc;
+
+}
+.simple-btn-success {
+  color: #fff;
+  background-color: #5cb85c;
+  border-color: #5cb85c;
+}
+
+.simple-btn-info {
+  color: #fff;
+  background-color: #5bc0de;
+  border-color: #5bc0de;
+}
+
+.simple-btn-warning {
+  color: #fff;
+  background-color: #f0ad4e;
+  border-color: #f0ad4e;
+}
+
+.simple-btn-link {
+  border-color: transparent;
+  background-color: transparent;
+  font-weight: 400;
+  color: #0275d8;
+  border-radius: 0;
+}
+
+.btn-space {
+  margin-left: 15px;
+}
 /* Jumbotron */
 
 .jumbotron {
@@ -262,35 +313,31 @@ body {
 /* Alerts */
 
 .alert {
-    padding: 10px;
-    margin-bottom: 20px;
-    border: 1px solid transparent;
-    border-radius: 5px;
-    margin-right: 100px;
+  padding: 10px;
+  margin-bottom: 20px;
+  border: 1px solid transparent;
+  border-radius: 5px;
+  margin-right: 100px;
 }
 
 .alert-success {
-    color: #3c763d;
-    background-color: #dff0d8;
-    border-color: #d6e9c6;
+  background-color: #dff0d8;
+  border-color: #a9a9a9;
 }
 
 .alert-info {
-    color: #31708f;
-    background-color: #d9edf7;
-    border-color: #bce8f1;
+  background-color: #d9edf7;
+  border-color: #a9a9a9;
 }
 
 .alert-warning {
-    color: #8a6d3b;
-    background-color: #fcf8e3;
-    border-color: #faebcc;
+  background-color: #fcf8e3;
+  border-color: #a9a9a9;
 }
 
 .alert-danger {
-    color: #a94442;
-    background-color: #f2dede;
-    border-color: #ebccd1;
+  background-color: #f2dede;
+  border-color: #a9a9a9;
 }
 
 /* List Group */
@@ -386,10 +433,22 @@ body {
 
 /* Wells */
 
-.well-basic {
-  padding: 25px;
+.well {
   border: 1px solid;
   border-radius: 4px;
   box-shadow: 0 1px 1px rgba(0,0,0,.05);
   background-color: #ddd;
+}
+
+.well-large {
+  padding: 50px;
+
+}
+
+.well-medium {
+  padding: 30px;
+}
+
+.well-small {
+  padding: 15px;
 }
